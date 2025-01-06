@@ -1,0 +1,101 @@
+body {
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container {
+  height: 1000px;
+}
+
+.intro {
+  width: 100%;
+  height: 300px;
+  background-color: blue;
+  margin-top: 10%;
+  position: absolute;
+  color: white;
+}
+.intro h2 {
+  font-size: 100px;
+  padding: 10px;
+}
+.intro p {
+  padding: 10px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.popular {
+  width: 100%;
+  height: 360px;
+  background-color: blue;
+  margin-top: 40%;
+  position: absolute;
+  color: white;
+}
+.popular h2 {
+  font-size: 100px;
+}
+.popular h3 {
+  font-size: 50px;
+  padding: 5px;
+}
+
+.advantage {
+  width: 100%;
+  height: 340px;
+  background-color: blue;
+  margin-top: 80%;
+  position: absolute;
+  color: white;
+}
+.advantage h2 {
+  font-size: 100px;
+  padding: 10px;
+}
+.advantage p {
+  padding: 10px;
+  text-align: justify;
+  font-size: 20px;
+}
+.advantage ul li {
+  font-size: 25px;
+  padding: 3px;
+}
+.navbar {
+  background-color: blue;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  display: flex;
+  z-index: 1;
+}
+.home h3 {
+  color: white;
+  position: fixed;
+  margin-left: 1%;
+  padding: 13px;
+}
+.List-Course h3 {
+  color: white;
+  position: fixed;
+  margin-left: 63%;
+  padding: 12px;
+}
+.Contact-Us h3 {
+  color: white;
+  position: fixed;
+  margin-left: 73%;
+  padding: 12px;
+}
+.Login-Register h3 {
+  color: blue;
+  position: fixed;
+  margin-left: 85%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 2px;
+}

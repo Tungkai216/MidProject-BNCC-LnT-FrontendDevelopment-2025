@@ -1,0 +1,135 @@
+body {
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container {
+  height: 1000px;
+}
+
+.form {
+  width: 100%;
+  height: 800px;
+  font-size: 50px;
+
+  background-color: blue;
+  margin-top: 10%;
+  position: absolute;
+  color: white;
+}
+.form h2 {
+  font-size: 100px;
+  padding: 10px;
+}
+.form p {
+  padding: 10px;
+  text-align: justify;
+  font-size: 20px;
+}
+.form form {
+  padding: 20px;
+}
+.form form #kirim {
+  font-size: 20px;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: aqua;
+}
+.form form #email {
+  font-size: 50px;
+  border-radius: 50px;
+  padding: 10px;
+}
+.form form #message {
+  font-size: 50px;
+  border-radius: 50px;
+  padding: 10px;
+  height: 200px;
+  width: 70%;
+}
+.form form #name {
+  font-size: 50px;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.social-media {
+  width: 100%;
+  height: 160px;
+  background-color: blue;
+  margin-top: 80%;
+  position: absolute;
+  color: white;
+}
+.social-media ul li {
+  margin-left: 2%;
+}
+
+.social-media h2 {
+  font-size: 50px;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+.social-media h3 {
+  font-size: 50px;
+  padding: 5px;
+}
+
+.advantage {
+  width: 100%;
+  height: 340px;
+  background-color: blue;
+  margin-top: 80%;
+  position: absolute;
+  color: white;
+}
+.advantage h2 {
+  font-size: 100px;
+  padding: 10px;
+}
+.advantage p {
+  padding: 10px;
+  text-align: justify;
+  font-size: 20px;
+}
+.advantage ul li {
+  font-size: 25px;
+  padding: 3px;
+}
+.navbar {
+  background-color: blue;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  display: flex;
+  z-index: 1;
+}
+.home h3 {
+  color: white;
+  position: fixed;
+  margin-left: 1%;
+  padding: 13px;
+}
+.List-Course h3 {
+  color: white;
+  position: fixed;
+  margin-left: 63%;
+  padding: 12px;
+}
+.Contact-Us h3 {
+  color: white;
+  position: fixed;
+  margin-left: 73%;
+  padding: 12px;
+}
+.Login-Register h3 {
+  color: blue;
+  position: fixed;
+  margin-left: 85%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 2px;
+}

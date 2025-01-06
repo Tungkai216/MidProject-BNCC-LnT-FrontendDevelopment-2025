@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="gaya-3.css" />
+    <title>💡Register💡</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="home">
+          <a href="index.html"><h3>BNCC</h3></a>
+        </div>
+        <div class="List-Course">
+          <a href="LC.html"><h3>List Course</h3></a>
+        </div>
+        <div class="Contact-Us">
+          <a href="CU.html"><h3>Contact Us</h3></a>
+        </div>
+        <div class="Login-Register">
+          <a href="LR.html"><h3>Login & Register</h3></a>
+        </div>
+      </div>
+
+      <div class="form">
+        <h2>Register</h2>
+
+        <form action="/submit-form" method="POST">
+          <!-- Input teks untuk nama -->
+          <label for="name"></label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Name (8-12 character)"
+          />
+
+          <br /><br />
+
+          <!-- Input radio untuk gender -->
+
+          <!-- Checkbox untuk minat -->
+
+          <!-- Input email -->
+          <label for="email"></label>
+          <input
+            type="password"
+            id="email"
+            name="email"
+            required
+            placeholder="Password (8-12 character)"
+          /><br /><br />
+
+          <!-- Tombol kirim -->
+          <input type="submit" value="Register" id="kirim" />
+        </form>
+      </div>
+      <div class="verifikasi">
+        <h3>Already have account? <a href="LR.html">Login Now!</a></h3>
+      </div>
+    </div>
+  </body>
+</html>
